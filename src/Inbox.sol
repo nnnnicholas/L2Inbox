@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
+///@author nnnnicholas
 contract Inbox {
-    // Author of the contract
-    address public author = msg.sender;
 
     // Event emitted when a message is sent
     event MessageSent(
